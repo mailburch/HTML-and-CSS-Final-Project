@@ -1,0 +1,57 @@
+﻿/* Print Stylesheet */
+
+/* Hide all images */
+img {
+    display: none;
+}
+
+/* Text and background color */
+body {
+    color: black;
+    background-color: white;
+}
+
+/* Remove borders, shadows, padding, and colors */
+* {
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: white;
+}
+
+/* Grid layout for printing */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+/* Links for printing */
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Ensure all elements are block */
+* {
+    display: block;
+}
+
+/* Hide JavaScript */
+script {
+    display: none;
+}
+
+h1, h2, a, li {
+    color: white;
+}
+
+.menu-button {
+    color: white;
+}
+a:active , a:link , a:hover, a:visited {
+    color: black;
+}
